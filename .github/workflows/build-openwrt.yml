@@ -67,5 +67,5 @@ jobs:
     - name: Upload Firmwares
       uses: actions/upload-artifact@v2
       with:
-        name: Firmwares
+        name: ImmortalWrt_Firmwares
         path: /home/runner/immortalwrt/bin/targets/
